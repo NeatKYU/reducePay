@@ -8,7 +8,7 @@ export const Login = () => {
     }
     return (
         <div className="flex flex-col">
-            <button onClick={() => handleLogin('google', '/')}>구글 로그인</button>
+            <button onClick={() => handleLogin('google', '/home')}>구글 로그인</button>
         </div>
     )
 }
