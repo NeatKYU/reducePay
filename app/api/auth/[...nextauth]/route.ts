@@ -36,6 +36,11 @@ const handler = NextAuth({
     //         return session
     //     },
     // },
+
+    // 내가 만든 로그인 페이지 사용
+    pages: {
+        signIn: '/login',
+    },
 })
 
 export { handler as GET, handler as POST }
