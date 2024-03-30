@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
-import AuthProvider from '@/app/providers/authProvider'
+import AuthProvider from '@/providers/authProvider'
 import { cn } from '@/lib/utils'
 
 import './globals.css'
@@ -24,7 +24,7 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={cn(
-                    'w-screen min-h-screen bg-background font-sans antialiased',
+                    'px-3 pt-3 pb-16 md:p-3 w-screen min-h-screen bg-background font-sans antialiased',
                     fontSans.variable
                 )}
             >

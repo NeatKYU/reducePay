@@ -11,8 +11,8 @@ export default function Page() {
             ) : (
                 <>
                     <span>status is {status}</span>
-                    <br />
-                    <span>token is {session ? JSON.stringify(session) : 'not found'}</span>
+                    {/* <br /> */}
+                    {/* <span>token is {session ? JSON.stringify(session) : 'not found'}</span> */}
                 </>
             )}
         </div>
